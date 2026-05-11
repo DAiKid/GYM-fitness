@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Fit | Fitness Template</title>
+
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+
+    <!-- nav -->
+    <nav class="flex justify-between items-center px-8 py-4 fixed w-full z-50">
+        <a href="#" class="font-extrabold text-3xl text-white">Gym<span class="text-rose-500">Fit</span></a>
+        <button class="text-white text-2xl lg:hidden" id="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+        <ul class="absolute top-full left-0 bg-black lg:bg-transparent border-t border-t-white w-full lg:static lg:w-auto lg:border-t-0 hidden lg:block">
+            <li class="text-center lg:inline-block">
+                <a href="#home" class="p-3 block uppercase font-bold text-white">home</a>
+            </li>
+            <li class="text-center lg:inline-block">
+                <a href="#" class="p-3 block uppercase font-bold text-white">pages</a>
+            </li>
+            <li class="text-center lg:inline-block">
+                <a href="#" class="p-3 block uppercase font-bold text-white">services</a>
+            </li>
+            <li class="text-center lg:inline-block">
+                <a href="#" class="p-3 block uppercase font-bold text-white">membership</a>
+            </li>
+            <li class="text-center lg:inline-block">
+                <a href="#" class="p-3 block uppercase font-bold text-white">blog</a>
+            </li>
+            <li class="text-center lg:inline-block">
+                <a href="#" class="p-3 block uppercase font-bold text-white">contact</a>
+            </li>
+        </ul>
+        <a href="tel: +23231234" class="text-rose-500 text-2xl hidden lg:block">
+            <i class="fa-solid fa-mobile-retro"></i>
+            <span>+23-23-1234</span>
+        </a>
+    </nav>
+
+    <!-- home -->
+    <section id="home" class="h-[50rem] text-white flex justify-center items-center">
+        <div class="container ms-40">
+            <h2 class="border inline-block uppercase px-4 font-thin tracking-[.6rem]">gym fitness club</h2>
+            <h1 class="font-extrabold uppercase text-7xl my-10">
+                step up your
+                <span class="text-orange-500 block">fitness challenge </span>
+                with us</h1>
+            <a href="#" class="btn">
+                join us <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </div>
+    </section>
+
+    <section class="xl:-translate-y-1/2 py-4">
+        <div class="container mx-auto flex flex-wrap justify-center gap-4">
+            <div class="bg-white p-8 relative card basis-96">
+                <span class="absolute text-8xl text-gray-300 z-10">01</span>
+                <h2 class="font-bold uppercase text-2xl my-8 relative z-20">modern equipment</h2>
+                <p class="text-gray-500 font-thin leading-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolore et vel. Aut, autem unde.</p>
+                <a href="#" class="uppercase text-rose-500 before:content-[''] before:w-7 before:h-[1px] before:inline-block before:bg-rose-500 before:-translate-y-1 before:me-2">more details</a>
+            </div>
+            <div class="bg-white p-8 relative card basis-96">
+                <span class="absolute text-8xl text-gray-300 z-10">02</span>
+                <h2 class="font-bold uppercase text-2xl my-8 relative z-20">modern equipment</h2>
+                <p class="text-gray-500 font-thin leading-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolore et vel. Aut, autem unde.</p>
+                <a href="#" class="uppercase text-rose-500 before:content-[''] before:w-7 before:h-[1px] before:inline-block before:bg-rose-500 before:-translate-y-1 before:me-2">more details</a>
+            </div>
+            <div class="bg-white p-8 relative card basis-96">
+                <span class="absolute text-8xl text-gray-300 z-10">03</span>
+                <h2 class="font-bold uppercase text-2xl my-8 relative z-20">modern equipment</h2>
+                <p class="text-gray-500 font-thin leading-8">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat dolore et vel. Aut, autem unde.</p>
+                <a href="#" class="uppercase text-rose-500 before:content-[''] before:w-7 before:h-[1px] before:inline-block before:bg-rose-500 before:-translate-y-1 before:me-2">more details</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16">
+        <div class="container mx-auto flex flex-wrap">
+            <div class="mb-6 w-full lg:mb-0 lg:w-1/2">
+                <img src="https://cdn.pixabay.com/photo/2016/11/19/12/43/dark-1839088_1280.jpg" alt="" class="w-full h-[20rem] object-cover rounded">
+            </div>
+            <div class="w-full lg:w-1/2 lg:px-4">
+                <h1 class="uppercase text-4xl font-bold mb-6">we've skill in wide <span class="text-rose-500">range of fitness</span> and other body health facility.</h1>
+                <p class="leading-7">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero sed ducimus nisi enim veniam ut, nesciunt et architecto consequatur nemo recusandae! Id animi sint dignissimos quos quidem eos tenetur?</p>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- discount -->
+    <section id="discount" class="flex justify-center items-center">
+        <div class="w-1/2 text-center text-white">
+            <p class="uppercase my-3">discover your potential</p>
+            <h1 class="uppercase text-4xl font-bold mb-6">book your early seat to get <span class="text-rose-500">summer 25%</span> discount</h1>
+            <a href="#" class="btn">join today</a>
+        </div>
+    </section>
+
+    <!-- services -->
+    <section id="services">
+        <div class="container mx-auto">
+            <h1 class="title">our services</h1>
+            <p class="text-gray-500 text-center">We offer more than 35 groups exercies, aerobic classes each week</p>
+            <div class="flex flex-wrap justify-center items-center py-8">
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+                <div class="card p-8 text-center basis-96 grow">
+                    <i class="fa-solid fa-dumbbell text-5xl"></i>
+                    <h2 class="uppercase font-bold font-title my-4">weight lifting</h2>
+                    <p class="text-gray-500 leading-7">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery -->
+    <section id="gallery">
+        <h1 class="title">our gallery</h1>
+        <p class="text-gray-500 text-center">We offer more than 35 groups exercies, aerobic classes each week</p>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-8">
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2016/11/29/09/10/man-1868632_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2015/07/02/10/23/training-828741_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2017/04/27/08/29/man-2264825_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2022/10/22/12/32/gym-7539140_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2016/10/11/01/58/woman-1730325_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2016/08/31/02/58/bodybuilding-1632548_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2018/04/30/01/20/kettlebell-3361559_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+            <div class="h-72">
+                <img src="https://cdn.pixabay.com/photo/2016/03/27/23/08/woman-1284656_1280.jpg" alt="" class="w-full h-full object-cover">
+            </div>  
+        </div>
+    </section>
+
+    <!-- customer -->
+    <section id="customer">
+        <div class="container mx-auto">
+            <h1 class="title text-white">what people say</h1>
+            <div class="py-8">
+                <div class="text-center mb-12">
+                    <i class="fa-solid fa-quote-left text-7xl text-rose-500"></i>
+                    <h2 class="text-white uppercase font-bold text-2xl my-6">a greate start to a healthy lift</h2>
+                    <p class="text-xl text-gray-400 w-1/2 mx-auto mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis, et unde aliquam assumenda possimus sed nihil sint aspernatur harum.</p>
+                    <p class="text-white capitalize font-bold text-xl">john donas</p>
+                    <p class="text-xl text-gray-400 capitalize">manager</p>
+                </div>
+                <div class="text-center mb-12">
+                    <i class="fa-solid fa-quote-left text-7xl text-rose-500"></i>
+                    <h2 class="text-white uppercase font-bold text-2xl my-6">a greate start to a healthy lift</h2>
+                    <p class="text-xl text-gray-400 w-1/2 mx-auto mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis, et unde aliquam assumenda possimus sed nihil sint aspernatur harum.</p>
+                    <p class="text-white capitalize font-bold text-xl">john donas</p>
+                    <p class="text-xl text-gray-400 capitalize">manager</p>
+                </div>
+                <div class="text-center mb-12">
+                    <i class="fa-solid fa-quote-left text-7xl text-rose-500"></i>
+                    <h2 class="text-white uppercase font-bold text-2xl my-6">a greate start to a healthy lift</h2>
+                    <p class="text-xl text-gray-400 w-1/2 mx-auto mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis, et unde aliquam assumenda possimus sed nihil sint aspernatur harum.</p>
+                    <p class="text-white capitalize font-bold text-xl">john donas</p>
+                    <p class="text-xl text-gray-400 capitalize">manager</p>
+                </div>
+                <div class="text-center mb-12">
+                    <i class="fa-solid fa-quote-left text-7xl text-rose-500"></i>
+                    <h2 class="text-white uppercase font-bold text-2xl my-6">a greate start to a healthy lift</h2>
+                    <p class="text-xl text-gray-400 w-1/2 mx-auto mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi veritatis, et unde aliquam assumenda possimus sed nihil sint aspernatur harum.</p>
+                    <p class="text-white capitalize font-bold text-xl">john donas</p>
+                    <p class="text-xl text-gray-400 capitalize">manager</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular courses -->
+    <section id="popularCourses" class="flex items-center flex-col mt-5">
+        <h1 class="title">popular courses</h1>
+        <p class="text-gray-500 text-center">We offer more than 35 groups exercies, aerobic classes each week</p>
+        <div class="container flex justify-center items-center mt-10 gap-8">
+            <div class="shadow-lg rounded-md h-auto">
+                <img src="https://cdn.pixabay.com/photo/2017/04/22/10/15/woman-2250970_640.jpg" alt="" class="w-full h-48 object-cover">
+                <h3 class="text-3xl mt-3 ps-3">Build Body</h3>
+                <p class="text-gray-500 text-lg py-3 ps-3">Mentor: Jimmy Karter</p>
+            </div>
+            <div class="shadow-lg rounded-md h-auto">
+                <img src="https://cdn.pixabay.com/photo/2017/04/22/10/15/woman-2250970_640.jpg" alt="" class="w-full h-48 object-cover">
+                <h3 class="text-3xl mt-3 ps-3">Build Body</h3>
+                <p class="text-gray-500 text-lg py-3 ps-3">Mentor: Jimmy Karter</p>
+            </div>
+            <div class="shadow-lg rounded-md h-auto">
+                <img src="https://cdn.pixabay.com/photo/2017/04/22/10/15/woman-2250970_640.jpg" alt="" class="w-full h-48 object-cover">
+                <h3 class="text-3xl mt-3 ps-3">Build Body</h3>
+                <p class="text-gray-500 text-lg py-3 ps-3">Mentor: Jimmy Karter</p>
+            </div>
+            <div class="shadow-lg rounded-md h-auto">
+                <img src="https://cdn.pixabay.com/photo/2017/04/22/10/15/woman-2250970_640.jpg" alt="" class="w-full h-48 object-cover">
+                <h3 class="text-3xl mt-3 ps-3">Build Body</h3>
+                <p class="text-gray-500 text-lg py-3 ps-3">Mentor: Jimmy Karter</p>
+            </div>
+        </div>
+        <a href="#" class="btn">see all our courses</a>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer" class=" bg-gray-900 h-auto">
+        <div class="container flex justify-center gap-14 py-10 text-white ">
+            <div class="w-72">
+                <h3 class="text-5xl uppercase mb-5">gymfit</h3>
+                <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, repellat voluptatibus saepe vel ipsum similique praesentium! Itaque nesciunt facere rem.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="w-60">
+                <h3 class="uppercase text-2xl mb-7">recent posts</h3>
+                <div class="mb-7">
+                    <a href="#" class="leading-4 hover:text-orange-400">Claritas est etiam processus dynamicus</a>
+                    <p class="text-gray-500 my-2">30 february 2019</p>
+                </div>
+                <div>
+                    <a href="#" class="leading-4 hover:text-orange-400">Claritas est etiam processus dynamicus</a>
+                    <p class="text-gray-500 my-2">30 february 2019</p>
+                </div>
+            </div>
+            <div>
+                <h3 class="uppercase text-2xl mb-7">quick links</h3>
+                <ul>
+                    <li class="mb-3 hover:text-orange-400"><i class="fa-solid fa-angles-right"></i><a href="" class="mx-3">About Us</a></li>
+                    <li class="mb-3 hover:text-orange-400"><i class="fa-solid fa-angles-right"></i><a href="" class="mx-3">Services</a></li>
+                    <li class="mb-3 hover:text-orange-400"><i class="fa-solid fa-angles-right"></i><a href="" class="mx-3">Membership</a></li>
+                    <li class="mb-3 hover:text-orange-400"><i class="fa-solid fa-angles-right"></i><a href="" class="mx-3">Courses</a></li>
+                    <li class="mb-3 hover:text-orange-400"><i class="fa-solid fa-angles-right"></i><a href="" class="mx-3">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="w-80">
+                <h3 class="uppercase text-2xl mb-7">home location</h3>
+                <p>Washington 6036 Richmond hwy.,Alexandria, VA USA 22303</p>
+                <p class="text-2xl mt-5">+1 (409) 987–5874</p>
+                <p class="text-2xl">info@demolink.org</p>
+            </div>
+        </div>
+        <div class="w-3/4 bg-black mx-auto flex justify-between content-center p-3">
+            <p class="text-gray-300 font-semibold">Gymfit &#169; 2019 , Theme By <a href="" class="text-orange-900">Themefisher.com</a></p>
+            <div class="">
+                <a href="" class="mx-3 text-lg"><i class="fa-brands fa-facebook text-gray-400"></i></a>
+                <a href="" class="mx-3 text-lg"><i class="fa-brands fa-twitter text-gray-400"></i></a>
+                <a href="" class="mx-3 text-lg"><i class="fa-brands fa-github-alt text-gray-400"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const toggle = document.querySelector("#toggle")
+        const ul = document.querySelector("nav ul")
+        toggle.onclick = function () {
+            toggle.querySelector("i").classList.toggle('fa-xmark')
+            ul.classList.toggle('hidden')
+        }
+
+        const nav = document.querySelector("nav")
+        window.addEventListener('scroll', function () {
+            if (window.scrollY >= 100) {
+                nav.classList.add('bg-gray-950')
+            } else {
+                nav.classList.remove('bg-gray-950')
+            }
+        })
+    </script>
+
+</body>
+
+</html>
+
